@@ -1,6 +1,7 @@
 steps:
   - name: ":hammer: My personal script"
     command: "test.sh"
+
+  - name: ":shipit: The real deal!"
+    command: "script.sh"
     artifact_paths: "artifacts/*"
-    agents:
-      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
