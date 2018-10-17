@@ -1,5 +1,5 @@
 steps:
-  - name: ":hammer: Example Script"
+  - name: ":hammer: My personal script"
     command: "test.sh"
     artifact_paths: "artifacts/*"
     agents:
